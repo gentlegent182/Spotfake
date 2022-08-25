@@ -1,0 +1,7 @@
+{
+  "name": "Spotifake",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
