@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import recentlyPlayed from '../../assets/mockdata/recentlyPlayed.json';
 import heavyRotation from '../../assets/mockdata/heavyRotation.json';
 import jumpBackin from '../../assets/mockdata/jumpbackIn.json';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -29,12 +30,17 @@ export class Tab1Page {
 
   opts = {
     slidesPerView: 2.4,
-    slidesOffserBefore: 20,
+    slidesOffsetBefore: 20,
     spaceBetween: 20,
     freeMode: true
   }
   
-  constructor() { }
+  constructor(private router: Router) { }
+
+  openAlbum(album) {
+    const titleEscaped = encodeURIComponent(album.title);
+    this.router.navigateByUrl(`/tabs/tabs1/${titleEscaped}`)
+  }
     //funcion para arreglar las imagenes
     dasherize(string) {
       return string.replace(/[A-Z]/g, function (char, index) {

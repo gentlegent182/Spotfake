@@ -10,10 +10,10 @@
         </ion-button>
       </ion-col>
 
-      <ion-slides>
-        <ion-slide *ngFor="let album of entry.albums" tappable {click}="openAlbum{album}">
+      <ion-slides [options]="opts">
+        <ion-slide *ngFor="let album of entry.albums" tappable (click)="openAlbum(album)">
           <img [src]="'/assets/images/albums/'+dasherize(album.image)+'.jpg'">
-          <span class="title"{{ album,title }}></span>
+          <span class="title">{{ album.title }}></span>
         </ion-slide>
       </ion-slides>
     </ion-row>
