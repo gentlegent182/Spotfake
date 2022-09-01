@@ -1,8 +1,16 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+    <ion-avatar slot="start">
+      <ion-img src="https://assets.stickpng.com/images/585e4beacb11b227491c3399.png"> </ion-img>
+    </ion-avatar>   
+    <ion-col size="3" class="ion-align-self-center ion-text-end">
+      <ion-button *ngIf="isFirst" fill="clear" color="light">
+        <ion-icon name="settings-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-col>
+    <ion-label>
+      Tu biblioteca
+    </ion-label>
   </ion-toolbar>
 </ion-header>
 
