@@ -1,25 +1,50 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-avatar slot="start">
-      <ion-img src="https://assets.stickpng.com/images/585e4beacb11b227491c3399.png"> </ion-img>
-    </ion-avatar>   
-    <ion-col size="3" class="ion-align-self-center ion-text-end">
-      <ion-button *ngIf="isFirst" fill="clear" color="light">
-        <ion-icon name="settings-outline" slot="icon-only"></ion-icon>
-      </ion-button>
-    </ion-col>
-    <ion-label>
-      Tu biblioteca
-    </ion-label>
+    
+    <ion-buttons>
+    
+
+      <ion-avatar class="Avatar" style="margin: 1px auto;">
+        <img src="https://cdn-icons-png.flaticon.com/512/4139/4139948.png">
+      
+      </ion-avatar>
+  
+        <ion-title class="Titulo" slot="start">Tu Biblioteca</ion-title>      
+    </ion-buttons>
+
+    <ion-chip class="Playlists">
+    <ion-padding class="Text1">
+      Playlists
+    </ion-padding>
+  </ion-chip>
+  <ion-chip class="Albumes">
+    <ion-padding class="Text2">
+      Albumes
+    </ion-padding>
+  </ion-chip>
+  <ion-chip class="Artistas">
+    <ion-padding class="Text3">
+      Artistas
+    </ion-padding>
+  </ion-chip>
+
+
+
+
+
+
+
+
+
+
+
+   
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
+    
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
 </ion-content>
