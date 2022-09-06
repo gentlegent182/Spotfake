@@ -8,8 +8,22 @@
         <img src="https://cdn-icons-png.flaticon.com/512/4139/4139948.png">
       
       </ion-avatar>
+     
   
-        <ion-title class="Titulo" slot="start">Tu Biblioteca</ion-title>      
+        <ion-title class="Titulo" slot="start">Tu Biblioteca</ion-title>   
+      <ion-button class="IconSearch">
+        <ion-avatar  slot ="end" class="IconSearch" style="margin: 1px auto;">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" alt=""/>
+        <span class="material-icons-outlined">search</span>
+        </ion-avatar>  
+      </ion-button>
+        <ion-button class="BotonIconAdd">
+          <ion-avatar  slot ="end" class="IconAdd" style="margin: 1px auto;">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" alt=""/>
+              <span class="material-icons-outlined">add</span>
+              </ion-avatar>   
+        </ion-button>
+        
     </ion-buttons>
 
     <ion-chip class="Playlists">
@@ -27,24 +41,29 @@
       Artistas
     </ion-padding>
   </ion-chip>
-
-
-
-
-
-
-
-
-
-
-
-   
-  </ion-toolbar>
+</ion-toolbar>
 </ion-header>
+  
+    <ion-list class="ListaBiblioteca"> 
+      <ion-item class="TusMeGustaItem">
+      <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+      <label for="">Tus Me Gusta</label>
+    </ion-item>
+      <ion-item class="TusMeGustaItem">
+        <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+        </ion-item>
+        <ion-item class="TusMeGustaItem">
+          <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+          </ion-item>
+          <ion-item class="TusMeGustaItem">
+            <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+            </ion-item>
+            <ion-item class="TusMeGustaItem">
+              <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+              </ion-item>
+              <ion-item class="TusMeGustaItem">
+                <img class="TusMeGustaImg"src="https://i.pinimg.com/564x/07/74/a4/0774a492388967e2b5b6d65b95f3fd1a.jpg" >
+                </ion-item>
+  
+  </ion-list>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    
-  </ion-header>
-
-</ion-content>
