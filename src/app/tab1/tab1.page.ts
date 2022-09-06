@@ -39,6 +39,7 @@ export class Tab1Page {
 
   openAlbum(album) {
     const titleEscaped = encodeURIComponent(album.title);
+    console.log('titleEscaped: ', titleEscaped);
     this.router.navigateByUrl(`/tabs/tabs1/${titleEscaped}`)
   }
     //funcion para arreglar las imagenes
