@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
-import recentlyPlayed from '../../assets/mockdata/recentlyPlayed.json';
-import heavyRotation from '../../assets/mockdata/heavyRotation.json';
-import jumpBackin from '../../assets/mockdata/jumpbackIn.json';
+import escuchadoRecientemente from '../../assets/mockdata/escuchadoRecientemente.json';
+import tusMeGusta from '../../assets/mockdata/tusMeGusta.json';
+import laHoraSad from '../../assets/mockdata/laHoraSad.json';
 import { Router } from '@angular/router';
 
 
@@ -16,15 +16,15 @@ export class Tab1Page {
   data = [
     {
       title: 'Escuchado recientemente',
-      albums: recentlyPlayed
+      albums: escuchadoRecientemente
     },
     {
       title: 'Tus me gusta',
-      albums: heavyRotation
+      albums: tusMeGusta
     },
     {
       title: 'La hora sad',
-      albums: jumpBackin
+      albums: laHoraSad
     }
   ];
 
@@ -43,9 +43,9 @@ export class Tab1Page {
     this.router.navigateByUrl(`/tabs/tabs1/${titleEscaped}`)
   }
     //funcion para arreglar las imagenes
-    dasherize(string) {
-      return string.replace(/[A-Z]/g, function (char, index) {
-        return (index !== 0 ? '-' : '') + char.toLowerCase();
-      });
+  dasherize(string) {
+    return string.replace(/[A-Z]/g, function (char, index) {
+      return (index !== 0 ? '-' : '') + char.toLowerCase();
+    });
   };
 }

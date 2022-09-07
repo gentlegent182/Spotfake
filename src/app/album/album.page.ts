@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import albums from '../../assets/mockdata//albums';
+import albums from '../../assets/mockdata/albums';
 
 @Component({
   selector: 'app-album',
@@ -15,13 +15,13 @@ export class AlbumPage implements OnInit {
   ngOnInit() {
     const title = this.activatedRoute.snapshot.paramMap.get('title');
     const decodedTitle = decodeURIComponent(title);
-    this.data = albums(decodedTitle);
+    this.data = albums[decodedTitle];
     console.log('this: ', this.data);
   }
       //funcion para arreglar las imagenes
-      dasherize(string) {
-        return string.replace(/[A-Z]/g, function (char, index) {
-          return (index !== 0 ? '-' : '') + char.toLowerCase();
-        });
+  dasherize(string) {
+    return string.replace(/[A-Z]/g, function(char, index) {
+      return (index !== 0 ? '-' : '') + char.toLowerCase();
+     });
     };
 }
