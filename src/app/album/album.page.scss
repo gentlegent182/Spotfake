@@ -1,0 +1,25 @@
+ion-item {
+      --ion-item-bakcground: transparent;
+      color: #fff;
+
+      p {
+            color: #949494;
+      }
+}
+
+ion-list {
+      --ion-backgrounnd-color: var(--ion-color-dark);
+}
+
+ion-title, ion-content {
+      font-family: 'Spotify';
+}
+
+.album-info {
+      color: #fff;
+      margin-left: 11px;
+      padding-right: 11px;
+      p {
+            font-weight: bold;
+      }
+}

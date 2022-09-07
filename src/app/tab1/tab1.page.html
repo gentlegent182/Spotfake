@@ -1,4 +1,9 @@
-<ion-content>
+  <ion-content>
+    <ion-title size="2">
+      <h2 class="section-header ion-no-padding">Buenas noches <ion-icon name="notifications-outline"></ion-icon><ion-icon name="timer-outline"></ion-icon><ion-icon name="settings-outline" slot="icon-only"></ion-icon></h2></ion-title>
+
+      <ion-button size="small" shape="round" fill="solid" color="medium" class="ion-text-center ion-align-self-center"><ion-text color="light"><sub>Música</sub></ion-text></ion-button><ion-button size="small" shape="round" fill="solid" color="medium" class="ion-text-center ion-align-self-center"><ion-text color="light"><sub>Podcasts & Shows</sub></ion-text></ion-button>
+
 
   <ion-row class="ion-no-padding" *ngFor="let entry of data; let isFirst = first;">
     <ion-col size="9">
@@ -6,7 +11,6 @@
       </ion-col>
       <ion-col size="3" class="ion-align-self-center ion-text-end">
         <ion-button *ngIf="isFirst" fill="clear" color="light">
-          <ion-icon name="settings-outline" slot="icon-only"></ion-icon>
         </ion-button>
       </ion-col>
 
