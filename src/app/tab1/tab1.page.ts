@@ -15,15 +15,15 @@ export class Tab1Page {
 
   data = [
     {
-      title: 'Recently played',
+      title: 'Escuchado recientemente',
       albums: recentlyPlayed
     },
     {
-      title: 'Heavy rotation',
+      title: 'Tus me gusta',
       albums: heavyRotation
     },
     {
-      title: 'Jump back in',
+      title: 'La hora sad',
       albums: jumpBackin
     }
   ];
