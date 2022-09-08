@@ -98,7 +98,9 @@ left: 10px;
 
        
 }
-
+.Items{
+    color: #ffffff;
+}
 
 .TusMeGustaImg{
     width: 55px;
@@ -106,41 +108,54 @@ left: 10px;
    
 }
 .TusMeGustaItem{
-    color: #ffffff;
+
     height: 70px;
+    width: 900;
 
 }
 .TusMeGustaLabel{
     color: #fff;
     font-family: 'Spotify';
-    width: 900px;
-    font-size: 15px;
+    width: 2500px;
+    font-size: 13px;
     position: relative;
     bottom: 10px;
+    
+    
 }
+    
+    
+    
+    
+
 .DetalleTusMeGusta{
-    color: #fff;
+    color: rgb(162, 162, 162);
     font-family: 'Spotify';
     width: 800px;
     font-size: 10px;
     position: relative;
     top: 12px;
-    right: 89px;
+    right: 125px;
 
+ }
 
-}
 
 
 .ArtistAvatar{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     position: relative;
     left: 0px;
+    text-align: center;
     
    
    }
    
-
+.Caca1{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
 .ArtistItem{
     color: #ffffff;
     height: 70px;
@@ -150,9 +165,10 @@ left: 10px;
     color: #fff;
     font-family: 'Spotify';
     width: 900px;
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
     bottom: 10px;
+    text-align: center;
     
 }
 .DetalleArtist{
@@ -163,13 +179,10 @@ left: 10px;
     position: relative;
     top: 12px;
     right: 50px;
-
     
 }
 
-.ListaBiblioteca{
-    color: blue;
-}
+
 
 .BotonIconAdd{
     width: 25px;
