@@ -10,6 +10,24 @@ ion-content {
   margin-bottom: 30px;
 
 }
+.search{
+  color: #fff;
+  font-family: 'Spotify';
+  font-weight: bold;
+  background-color: black;
+  background-attachment: fixed;
+
+
+
+}
+
+
+.browse-all{
+  color: #fff;
+  font-family: 'Spotify';
+  font-weight: bold;
+  margin-top: -5px;
+}
 
 ion-slides {
   margin-bottom: 20px;
@@ -36,11 +54,18 @@ ion-item-left{
 
 ion-header ion-toolbar {
   --background: var(--ion-background-color);
+
 }
 
 ion-searchbar {
-  --background: var(--ion-text-color);
-  --color: var(--ion-background-color);
+background-color:#fff;;
+color: black;
+font-family: 'Spotify';
+font-weight: bold;
+background-color: black;
+background-attachment: fixed;
+
+
 }
 
 .category-list {
