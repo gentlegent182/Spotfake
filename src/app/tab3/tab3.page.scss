@@ -50,10 +50,20 @@ left: 10px;
     border-color: #ffffff;
     border-width: 1px;
     border-style: solid;
-
-
-
 }
+
+.BotonAlbumes{
+    width: 60px;
+    height: 20px;
+    background-color: rgba(255,255,255,0);
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+
+
 .Text2{
     font-size: 10px;
     color: #fff;
@@ -98,7 +108,7 @@ left: 10px;
 
        
 }
-.Items{
+.ItemsDiv{
     color: #ffffff;
 }
 
@@ -108,7 +118,7 @@ left: 10px;
    
 }
 .TusMeGustaItem{
-
+    color:#fff;
     height: 70px;
     width: 900;
 
@@ -116,26 +126,21 @@ left: 10px;
 .TusMeGustaLabel{
     color: #fff;
     font-family: 'Spotify';
-    width: 2500px;
+    width: 250px;
     font-size: 13px;
     position: relative;
     bottom: 10px;
     
     
 }
-    
-    
-    
-    
-
 .DetalleTusMeGusta{
     color: rgb(162, 162, 162);
     font-family: 'Spotify';
-    width: 800px;
-    font-size: 10px;
+    width: 8000px;
+    font-size: 13px;
     position: relative;
-    top: 12px;
-    right: 125px;
+    top: 11px;
+    right: 83px;
 
  }
 
