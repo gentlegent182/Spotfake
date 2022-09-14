@@ -22,6 +22,7 @@ ion-content {
   font-family: 'Spotify';
   font-weight: bold;
   margin-top: -5px;
+  text-align: center;
 }
 
 ion-slides {
@@ -31,7 +32,10 @@ ion-slides {
 .title {
   color: #fff;
   font-family: 'Spotify';
+  font-weight: bold;
+  font-size: 30px;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -70,7 +74,7 @@ background-attachment: fixed;
 
   .category-item {
     margin: 8px;
-    background-color: #d6933d;
+    background-color: #7a1c77;
     position: relative;
     height: 100px;
     border-radius: 4px;
@@ -78,15 +82,15 @@ background-attachment: fixed;
     width: calc(50% - 16px);
 
     &.color-2 {
-      background-color: #8da4b0;
+      background-color: #38a73a;
     }
 
     &.color-3 {
-      background-color: #5a8a79;
+      background-color: #302586;
     }
 
     &.color-4 {
-      background-color: #e06943;
+      background-color: #bf3f7d;
     }
 
     .title {
