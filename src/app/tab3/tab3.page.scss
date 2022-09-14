@@ -49,6 +49,17 @@ left: 10px;
     border-color: #ffffff;
     border-width: 1px;
     border-style: solid;
+}
+
+.BotonAlbumes{
+    width: 60px;
+    height: 20px;
+    background-color: rgba(255,255,255,0);
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    
+}
 
 
 
@@ -175,7 +186,6 @@ left: 10px;
 }
    // Material Icons Outlined
     //   https://fonts.googleapis.com/css?family=Material+Icons+Outlined
-=======
 .Avatar{
  width: 33px;
  height: 33px;
@@ -231,6 +241,7 @@ left: 10px;
 
 
 }
+
 .Text2{
     font-size: 10px;
     color: #fff;
@@ -275,6 +286,9 @@ left: 10px;
 
        
 }
+.ItemsDiv{
+    color: #ffffff;
+}
 
 
 .TusMeGustaImg{
@@ -283,6 +297,9 @@ left: 10px;
    
 }
 .TusMeGustaItem{
+    color:#fff;
+    height: 70px;
+    width: 900;
     color: #ffffff;
     height: 70px;
 
@@ -290,6 +307,40 @@ left: 10px;
 .TusMeGustaLabel{
     color: #fff;
     font-family: 'Spotify';
+    width: 250px;
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+    
+    
+}
+.DetalleTusMeGusta{
+    color: rgb(162, 162, 162);
+    font-family: 'Spotify';
+    width: 8000px;
+    font-size: 13px;
+    position: relative;
+    top: 11px;
+    right: 83px;
+
+ }
+
+
+
+.ArtistAvatar{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: 0px;
+    text-align: center;
+    
+   
+   }
+   
+.Caca1{
+    width: 55px;
+    height: 55px;
+    text-align: center;
     width: 900px;
     font-size: 15px;
     position: relative;
@@ -328,6 +379,10 @@ left: 10px;
     color: #fff;
     font-family: 'Spotify';
     width: 900px;
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
     font-size: 15px;
     
 }
@@ -336,6 +391,12 @@ left: 10px;
     font-family: 'Spotify';
     width: 800px;
     font-size: 10px;
+    position: relative;
+    top: 12px;
+    right: 50px;
+    
+}
+
     
 }
 
@@ -352,4 +413,5 @@ left: 10px;
     height: 50px;
 }
    // Material Icons Outlined
+    //   https://fonts.googleapis.com/css?family=Material+Icons+Outlined
     //   https://fonts.googleapis.com/css?family=Material+Icons+Outlined

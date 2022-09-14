@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 export class Tab2Page {
 
   constructor(private router: Router) {}
+  bibliotecaPlaylist(){
+    this.router.navigate(['/biblioteca-playlist'])
   go(){
     this.router.navigate(['madeforu']);
   }
